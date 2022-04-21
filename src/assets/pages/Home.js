@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navigation from "../components/Navigation";
 import NavigationOnScroll from "../components/NavigationOnScroll";
-
 const Home = () => {
   const [changerNavi, setChangerNavi] = useState(false);
   window.addEventListener("scroll", () => {
