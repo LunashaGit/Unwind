@@ -1,21 +1,18 @@
 import React from "react";
+import Therapie from "./Therapie";
+import Avis from "./Avis";
+import SignUp from "./SignUp";
+import { Link, NavLink, Routes, Route } from "react-router-dom";
 
 const Popup = () => {
-    const [isOpen, setIsOpen] = React.useState(false);
-    const toggle = () => setIsOpen(!isOpen);
+    
+
+    
 
     return (
-        <div>
-            <h1>test</h1>
-            <input type="button" value="Open Popup" onClick={toggle} />
-            {isOpen && (
-                <div className="popup">
-                    <input type="button" value="Close" onClick={toggle} />
-                    <div className="popup_inner">
-                        <h1>test</h1>
-                    </div>
-                </div>
-            )}
+        <div style={{position:"absolute"}}>
+            <input type="button" value="Open Popup"className="btn-modal" />
+            
         </div>
     );
 };
