@@ -10,8 +10,8 @@ const Popup = () => {
             <input type="button" value="Open Popup" onClick={toggle} />
             {isOpen && (
                 <div className="popup">
+                    <input type="button" value="Close" onClick={toggle} />
                     <div className="popup_inner">
-                        
                     </div>
                 </div>
             )}
