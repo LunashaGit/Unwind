@@ -1,0 +1,108 @@
+.postDeploy {
+  margin: 0 10rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    font-size: 2.5rem;
+  }
+  &__boxButton {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+  }
+  &__button {
+    border: 0;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+  &__box {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  &__card {
+    border-radius: 0.5rem;
+  }
+  &__img {
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    text-align: center;
+    height: 17rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: $white;
+    h3 {
+      font-weight: 500;
+      font-size: 1.7rem;
+    }
+    h4 {
+      font-weight: 300;
+      margin: 1rem;
+      font-size: 0.9rem;
+    }
+    p {
+      position: absolute;
+      bottom: 1rem;
+      right: 0.5rem;
+      background-color: blue;
+      border-radius: 50rem;
+      height: 2.5rem;
+      width: 2.5rem;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    i {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+  }
+  &__info {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-areas:
+      "a b b"
+      "a c d";
+    img {
+      grid-area: a;
+      width: 3rem;
+      height: 3rem;
+      border: 0.1rem $white solid;
+      border-radius: 50rem;
+    }
+    h3 {
+      grid-area: b;
+      font-size: 0.9rem;
+      height: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    h4 {
+      grid-area: c;
+      font-size: 0.6rem;
+      font-weight: 300;
+      margin-top: 0.1rem;
+    }
+    p {
+      grid-area: d;
+      font-size: 0.5rem;
+      margin-top: 0.1rem;
+      padding-left: 1.5rem;
+      color: yellow;
+    }
+  }
+  .button {
+    margin: 3rem auto 8rem auto;
+  }
+}

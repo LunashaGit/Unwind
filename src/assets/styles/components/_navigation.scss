@@ -2,14 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
-  margin: 0.5rem 1rem;
+  max-width: 1440px;
+  margin: 0.5rem auto;
+  padding: 0 1rem;
   &__search {
     display: flex;
     align-items: center;
     margin-left: 10%;
     justify-content: space-around;
-    border: 0.1rem solid black;
+    border: 0.1rem solid $shadow3;
     border-radius: 5rem;
     padding: 0.5rem 0.5rem 0.5rem 1.5rem;
     &--box {

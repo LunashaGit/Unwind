@@ -8,6 +8,7 @@ const Header = () => {
         Nous trouvons la thérapie qui vous correspond!
       </p>
       <button className="button">Faites le test</button>
+      <i class="fa-solid fa-angle-down"></i>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import HomeDisplay from "../components/HomeDisplay";
 import Navigation from "../components/Navigation";
 import NavigationOnScroll from "../components/NavigationOnScroll";
+import PostDeploy from "../components/PostDeploy";
 
 const Home = () => {
   const [changerNavi, setChangerNavi] = useState(false);
@@ -11,10 +12,10 @@ const Home = () => {
   });
   return (
     <div className="home">
-      {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
-      <Navigation />
+      {changerNavi ? <NavigationOnScroll /> : <Navigation />}
       <Header />
       <HomeDisplay />
+      <PostDeploy nbr={4} />
     </div>
   );
 };
