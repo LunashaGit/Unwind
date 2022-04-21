@@ -15,7 +15,7 @@ const FooterFour = () => {
                 <option value="">Polonais</option>
                 <option value="">Portugais</option>
             </select>
-            <p>Inspired by Vicky</p>
+            <p>Inspired by Vicky Rousseau</p>
             <a href="#">Conditions d'utilisation</a>
             <a href="#">Conditions de vente</a>
             <a href="#">Protection des données</a>
