@@ -1,0 +1,49 @@
+.homeDisplay {
+  margin: 0 10rem;
+  transform: translateY(-8rem);
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a a a"
+    "b c d";
+  &__box {
+    grid-area: a;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: url(./../../../../public/images/AdobeStock_375686554_Preview.jpeg)
+      center/cover;
+    padding: 3rem;
+
+    height: 30rem;
+    h3 {
+      color: $white;
+      font-size: 2.5rem;
+    }
+  }
+  &__littleBox {
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 20rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: $white;
+    text-align: center;
+    &--one {
+      background: red;
+    }
+    &--two {
+      background: green;
+    }
+    &--three {
+      background: url(./../../../../public/images/AdobeStock_452009763_Preview.jpeg)
+        center/cover;
+    }
+  }
+}

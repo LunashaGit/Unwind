@@ -1,9 +1,10 @@
 import React from "react";
+import Logo from "./Logo";
 
 const NavigationOnScroll = () => {
   return (
     <div style={{ position: "fixed" }}>
-      <h2>HEAAAAAAAH</h2>
+      <Logo />
     </div>
   );
 };
