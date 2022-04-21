@@ -1,7 +1,6 @@
 import React from "react";
 import { postData } from "../data/post";
 const PostDeploy = ({ nbr }) => {
-  const balise = <i class="fa-solid fa-star"></i>;
   return (
     <div className="postDeploy">
       <h2>Nos thérapies près de chez vous</h2>
