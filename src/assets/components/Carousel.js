@@ -1,17 +1,21 @@
 import React from "react";
 const Carousel = () => {
   return (
-    <div >
-      <h2 className="carouselTitle">Comment gérer les situations de crises ?</h2>
-      <div className="carouselDisplay">
-        <div className="carouselDisplay__Box carouselDisplay__Box--one">
-            <h4>Se prendre en main face à la dépression</h4>
+    <div className="carousel">
+      <h2>Comment gérer les situations de crises ?</h2>
+      <p>
+        A la recherche d'une solution pour les problèmes familiaux, pour vous ou
+        pour vos proches?
+      </p>
+      <div className="carousel__box">
+        <div className="carousel__card carousel__card--one">
+          <h4>Se prendre en main face à la dépression</h4>
         </div>
-        <div className="carouselDisplay__Box carouselDisplay__Box--one">
-            <h4>Gérer les conflits au travail</h4>
+        <div className="carousel__card carousel__card--two">
+          <h4>Gérer les conflits au travail</h4>
         </div>
-        <div className="carouselDisplay__Box carouselDisplay__Box--one">
-            <h4>Comment retrouver la communication</h4>
+        <div className="carousel__card carousel__card--three">
+          <h4>Comment retrouver la communication</h4>
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ import NavigationOnScroll from "../components/NavigationOnScroll";
 import Popup from "../components/Popup";
 import PostDeploy from "../components/PostDeploy";
 import Avis from "../components/Avis";
+import Carousel from "../components/Carousel";
 
 const Home = () => {
   const [changerNavi, setChangerNavi] = useState(false);
@@ -23,6 +24,7 @@ const Home = () => {
       <Header />
       <HomeDisplay />
       <PostDeploy nbr={4} />
+      <Carousel />
       <FooterOne />
       <FooterTwo />
       <FooterThree />

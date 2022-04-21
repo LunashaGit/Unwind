@@ -1,25 +1,73 @@
-.carouselDisplay{
-    margin: 0 10rem;
+.carousel {
+  margin: 0 10rem;
+  transform: translateY(-9rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__box {
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr;
-    &__Box{
-        border-radius: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-end;
-        height: 20rem;
-        font-size: 1.5rem;
-        padding: 2rem;
-        color: #fff;
-        text-align: center;
-        &--one{
-            background: red;
-        }
-    }
-}
-.carouselTitle{
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.1rem;
+    margin: 0.8rem 0 2rem 0;
+  }
+  &__card {
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 17rem;
+    padding: 2rem;
+    color: $white;
     text-align: center;
-    margin: 2rem 0;    
+    box-shadow: 0.1rem 0.1rem 0.1rem $shadow3;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+    }
+    h4 {
+      text-shadow: 0.1rem 0.1rem 0.1rem $shadow3;
+      font-weight: 300;
+      font-size: 1.8rem;
+    }
+    &--one {
+      background-image: -webkit-linear-gradient(
+          bottom,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0)
+        ),
+        url(./../../../../public/images/AdobeStock_206917850_Preview.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &--two {
+      background-image: -webkit-linear-gradient(
+          bottom,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0)
+        ),
+        url(./../../../../public/images/AdobeStock_375686687_Preview.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &--three {
+      background-image: -webkit-linear-gradient(
+          bottom,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0)
+        ),
+        url(./../../../../public/images/AdobeStock_452009763_Preview.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
 }
