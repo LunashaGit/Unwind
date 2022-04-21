@@ -5,10 +5,18 @@ export const postData = [
     background: "./images/AdobeStock_206917850_Preview.jpeg",
     city: "Bruxelles",
     name: "Cody Fisher",
+    textDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed",
     description: "Thérapeuthe",
-    starParagraphe: "4.5/5",
+    textDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 + 1) + 3), 
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/1.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
   {
     id: "2",
@@ -16,10 +24,18 @@ export const postData = [
     background: "./images/AdobeStock_206917850_Preview.jpeg",
     city: "Bruxelles",
     name: "Cody Fisher",
+    textDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed",
     description: "Thérapeuthe",
-    starParagraphe: "2/5",
+    textDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3),    
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/2.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
   {
     id: "3",
@@ -27,10 +43,17 @@ export const postData = [
     background: "./images/AdobeStock_206917850_Preview.jpeg",
     city: "Bruxelles",
     name: "Cody Fisher",
+    textDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed",
     description: "Thérapeuthe",
-    starParagraphe: "2/5",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3),    
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/3.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
   {
     id: "4",
@@ -38,58 +61,100 @@ export const postData = [
     background: "./images/AdobeStock_206917850_Preview.jpeg",
     city: "Bruxelles",
     name: "Cody Fisher",
+    textDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed euismod, urna eu tincidunt tincidunt, nisi nisl aliquam eros, eget tincidunt nunc nisl euismod erat. Nulla facilisi. Sed",
     description: "Thérapeuthe",
-    starParagraphe: "2/5",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3),    
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/4.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
   {
     id: "5",
     title: "Post5",
     description: "Profil Pro",
-    starParagraphe: "4.5/5",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3), 
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/5.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
   {
     id: "6",
     title: "Post5",
     description: "Profil Pro",
-    starParagraphe: "4.5/5",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3), 
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/5.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
   {
     id: "7",
     title: "Post5",
     description: "Profil Pro",
-    starParagraphe: "4.5/5",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3), 
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/5.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
   {
     id: "8",
     title: "Post5",
     description: "Profil Pro",
-    starParagraphe: "4.5/5",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3), 
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/5.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
 
   {
     id: "9",
     title: "Post5",
     description: "Profil Pro",
-    starParagraphe: "4.5/5",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3), 
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/5.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
   {
     id: "10",
     title: "Post5",
     description: "Profil Pro",
-    starParagraphe: "4.5/5",
+    starParagraphe: Math.floor(Math.random() * (5 - 3 +1 ) + 3), 
+    notice: Math.floor(Math.random() * (25 - 10 +1 ) + 10),
     match: Math.floor(Math.random() * (100 - 70 + 1) + 70),
     image: "./images/ProfilPro/5.jpg",
+    tags: [
+      "psychiatre",
+      "psychologue",
+      "psychologie"
+  ]
   },
 ];

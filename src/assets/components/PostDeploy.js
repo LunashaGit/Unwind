@@ -1,6 +1,7 @@
 import React from "react";
 import { postData } from "../data/post";
 const PostDeploy = ({ nbr }) => {
+  const balise = <i class="fa-solid fa-star"></i>;
   return (
     <div className="postDeploy">
       <h2>Nos thérapies près de chez vous</h2>
@@ -36,11 +37,24 @@ const PostDeploy = ({ nbr }) => {
                 <h3>{post.name}</h3>
                 <h4>{post.description}</h4>
                 <p>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
+                  {
+                  (post.starParagraphe === 4) ? (
+                    <>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    </>
+                  ) : (
+                    <>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    </>
+                  )
+                  }
                 </p>
               </div>
             </div>
