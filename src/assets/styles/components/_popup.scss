@@ -25,10 +25,12 @@
   padding: 6rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  img {
-    width: 9rem;
-    opacity: 0.6;
+  h4 {
+    margin: 0 5rem;
+    font-size: 1.7rem;
+    text-align: center;
   }
 }
 
@@ -53,5 +55,13 @@
   img {
     width: 9rem;
     opacity: 0.6;
+  }
+  h3 {
+    font-size: 2rem;
+    margin: 3rem 0 1rem 0;
+  }
+  p {
+    text-align: center;
+    margin: 0 10rem;
   }
 }

@@ -49,7 +49,7 @@ const Header = () => {
           <button onClick={(e) => setIsOpen(toggle)} className="button">
             Faites le test
           </button>
-          <i class="fa-solid fa-angle-down"></i>
+          <i className="fa-solid fa-angle-down"></i>
           {isOpen && (
             <div className="modal">
               <input
@@ -64,7 +64,14 @@ const Header = () => {
                   className="button button--hover"
                   onClick={() => setButtonNumber(buttonNumber + 1)}
                 >
-                  C'est parti !
+                  {buttonNumber === 0 ? "C'est parti !" : ""}
+                  {buttonNumber === 1 ||
+                  buttonNumber === 2 ||
+                  buttonNumber === 3 ||
+                  buttonNumber === 4
+                    ? "Suivant"
+                    : ""}
+                  {buttonNumber === 5 ? "S'inscrire" : ""}
                 </button>
               </div>
             </div>

@@ -3,7 +3,7 @@ const FooterFour = () => {
   return (
     <div className="footerFour">
       <div className="footerFour__box">
-        <i class="fa-solid fa-globe"></i>
+        <i className="fa-solid fa-globe"></i>
         <select className="footerFour__select">
           <option value="">Français</option>
           <option value="">Allemand</option>

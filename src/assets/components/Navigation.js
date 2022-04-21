@@ -20,7 +20,7 @@ const Navigation = () => {
           <input type="text" id="when" placeholder="Où?" />
         </div>
         <button className="nav__search--button">
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
       <ul className="nav__links">
@@ -43,7 +43,7 @@ const Navigation = () => {
           className={(nav) => (nav.isActive ? "nav__active" : "")}
         >
           <li className="nav__link">
-            Be (Fr) <i class="fa-solid fa-caret-down"></i>
+            Be (Fr) <i className="fa-solid fa-caret-down"></i>
           </li>
         </NavLink>
       </ul>

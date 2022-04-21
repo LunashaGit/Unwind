@@ -9,10 +9,10 @@ const Carousel = () => {
       </p>
       <div className="carousel__box">
         <span className=" carousel__arrow carousel__arrow--left">
-          <i class="fa-solid fa-angle-left"></i>
+          <i className="fa-solid fa-angle-left"></i>
         </span>
         <span className=" carousel__arrow carousel__arrow--right">
-          <i class="fa-solid fa-angle-right"></i>
+          <i className="fa-solid fa-angle-right"></i>
         </span>
         <div className="carousel__card carousel__card--one">
           <h4>Se prendre en main face à la dépression</h4>

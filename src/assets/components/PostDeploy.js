@@ -26,7 +26,7 @@ const PostDeploy = ({ nbr }) => {
                   background: `url(${post.background})no-repeat center/cover`,
                 }}
               >
-                <i class="fa-regular fa-heart"></i>
+                <i className="fa-regular fa-heart"></i>
                 <h3>{post.title}</h3>
                 <h4>{post.city}</h4>
                 <p>{post.match}%</p>
@@ -36,31 +36,29 @@ const PostDeploy = ({ nbr }) => {
                 <h3>{post.name}</h3>
                 <h4>{post.description}</h4>
                 <p>
-                  {
-                  (post.starParagraphe === 4) ? (
+                  {post.starParagraphe === 4 ? (
                     <>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
                     </>
                   ) : (
                     <>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
-                    <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
+                      <i className="fa-solid fa-star"></i>
                     </>
-                  )
-                  }
+                  )}
                 </p>
               </div>
             </div>
           ))}
       </div>
       <button className="button button--hover">
-        Montrez-moi en plus <i class="fa-solid fa-caret-right"></i>
+        Montrez-moi en plus <i className="fa-solid fa-caret-right"></i>
       </button>
     </div>
   );
