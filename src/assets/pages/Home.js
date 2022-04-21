@@ -7,7 +7,6 @@ import Header from "../components/Header";
 import HomeDisplay from "../components/HomeDisplay";
 import Navigation from "../components/Navigation";
 import NavigationOnScroll from "../components/NavigationOnScroll";
-import Popup from "../components/Popup";
 import PostDeploy from "../components/PostDeploy";
 import Avis from "../components/Avis";
 import Carousel from "../components/Carousel";

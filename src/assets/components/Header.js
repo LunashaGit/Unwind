@@ -11,32 +11,29 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [buttonNumber, setButtonNumber] = React.useState(0);
   const toggle = () => setIsOpen(!isOpen);
-  const test = () =>{
-    switch(buttonNumber){
+  const test = () => {
+    switch (buttonNumber) {
       case 0:
-        return <Therapie />
+        return <Therapie />;
       case 1:
-        return <Decision/>
+        return <Decision />;
       case 2:
-        return <Decompress />
+        return <Decompress />;
       case 3:
-        return <Affirmation />
-      case 4: 
-        return <Avis />
+        return <Affirmation />;
+      case 4:
+        return <Avis />;
       case 5:
-        return <SignUp />
+        return <SignUp />;
       default:
-        setIsOpen(!isOpen)
-        setButtonNumber(0)
+        setIsOpen(!isOpen);
+        setButtonNumber(0);
     }
-    }
-
-  console.log(buttonNumber)
-  
+  };
 
   if (isOpen) {
   } else {
-    document.body.classList.remove('active-modal')
+    document.body.classList.remove("active-modal");
   }
   return (
     <div className="header">
@@ -49,14 +46,26 @@ const Header = () => {
           <p className="header__content">
             Nous trouvons la thérapie qui vous correspond!
           </p>
-          <button onClick={(e) => setIsOpen(toggle)} className="button">Faites le test</button>
+          <button onClick={(e) => setIsOpen(toggle)} className="button">
+            Faites le test
+          </button>
           <i class="fa-solid fa-angle-down"></i>
           {isOpen && (
             <div className="modal">
-              <input type="button" className="close-modal" value="X" onClick={toggle} />
+              <input
+                type="button"
+                className="close-modal"
+                value="x"
+                onClick={toggle}
+              />
               <div className="modal-content">
                 {test()}
-                <button onClick={() => setButtonNumber(buttonNumber+1)}>C'est parti !</button>
+                <button
+                  className="button button--hover"
+                  onClick={() => setButtonNumber(buttonNumber + 1)}
+                >
+                  C'est parti !
+                </button>
               </div>
             </div>
           )}

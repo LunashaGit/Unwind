@@ -35,6 +35,7 @@ body {
   &--hover {
     color: $white;
     background-color: $gold;
+    font-weight: 400;
   }
   &:hover {
     transform: scale(0.95);
