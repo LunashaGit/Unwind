@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Carousel from "../components/Carousel";
 import Header from "../components/Header";
 import HomeDisplay from "../components/HomeDisplay";
 import Navigation from "../components/Navigation";
@@ -16,6 +17,7 @@ const Home = () => {
       <Header />
       <HomeDisplay />
       <PostDeploy nbr={4} />
+      <Carousel />
     </div>
   );
 };

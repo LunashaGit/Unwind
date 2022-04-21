@@ -12,6 +12,7 @@ const Popup = () => {
                 <div className="popup">
                     <input type="button" value="Close" onClick={toggle} />
                     <div className="popup_inner">
+                        <h1>test</h1>
                     </div>
                 </div>
             )}

@@ -1,4 +1,5 @@
 import React from "react";
+import Popup from "./Popup";
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
       <p className="header__content">
         Nous trouvons la thérapie qui vous correspond!
       </p>
-      <button className="button">Faites le test</button>
+      <button className="button" onClick={<Popup />}>Faites le test</button>
       <i class="fa-solid fa-angle-down"></i>
     </div>
   );
