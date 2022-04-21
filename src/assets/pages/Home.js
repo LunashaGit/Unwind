@@ -13,7 +13,8 @@ const Home = () => {
   });
   return (
     <div className="home">
-      {changerNavi ? <NavigationOnScroll /> : <Navigation />}
+      {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
+      <Navigation />
       <Header />
       <HomeDisplay />
       <PostDeploy nbr={4} />

@@ -11,7 +11,9 @@ const HomeDisplay = () => {
         <h4>Découvrez l'hippothérapie</h4>
       </div>
       <div className="homeDisplay__littleBox homeDisplay__littleBox--two">
-        <h4>Consultations psy en ligne</h4>
+        <h4>
+          Consultations <br /> psy en ligne
+        </h4>
       </div>
       <div className="homeDisplay__littleBox homeDisplay__littleBox--three">
         <h4>Gestion des traumas par le corps</h4>
