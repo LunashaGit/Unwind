@@ -1,5 +1,8 @@
 .postDeploy {
-  margin: 0 10rem;
+  background-color: $grey5;
+  max-width: 1440px;
+  padding-top: 15rem;
+  transform: translateY(-15rem);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -7,9 +10,11 @@
     font-size: 2.5rem;
   }
   &__boxButton {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 3rem;
+    padding: 0 15rem;
   }
   &__button {
     border: 0;
@@ -17,11 +22,25 @@
     padding: 0.5rem 1.5rem;
     font-size: 0.8rem;
     cursor: pointer;
+    background-color: $grey4;
+    transition: 0.2s ease-in-out;
     &:hover {
-      transform: scale(0.9);
+      transform: scale(0.95);
+      color: $white;
+      font-size: 1rem;
+      font-weight: 300;
+      background-color: $gold;
+    }
+    &--select {
+      transform: scale(0.95);
+      color: $white;
+      font-size: 1rem;
+      font-weight: 300;
+      background-color: $gold;
     }
   }
   &__box {
+    margin: 0 10rem;
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -53,7 +72,7 @@
       position: absolute;
       bottom: 1rem;
       right: 0.5rem;
-      background-color: blue;
+      background-color: $lightBlue;
       border-radius: 50rem;
       height: 2.5rem;
       width: 2.5rem;
@@ -66,6 +85,7 @@
       position: absolute;
       top: 1rem;
       right: 1rem;
+      text-shadow: 0.1rem 0.1rem 0.1rem $shadow2;
     }
   }
   &__info {
@@ -81,6 +101,7 @@
       height: 3rem;
       border: 0.1rem $white solid;
       border-radius: 50rem;
+      margin-right: 0.5rem;
     }
     h3 {
       grid-area: b;
@@ -96,10 +117,11 @@
     }
     p {
       grid-area: d;
-      font-size: 0.5rem;
+      font-size: 0.6rem;
       margin-top: 0.1rem;
       padding-left: 1.5rem;
-      color: yellow;
+      color: $yellow;
+      text-shadow: 0.1rem 0.1rem 0.1rem $shadow3;
     }
   }
   .button {

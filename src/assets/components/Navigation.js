@@ -28,7 +28,9 @@ const Navigation = () => {
           to={"/"}
           className={(nav) => (nav.isActive ? "nav__active" : "")}
         >
-          <li className="nav__link">Je suis thérapeuthe/coach</li>
+          <li style={{ color: "#a88550" }} className="nav__link">
+            Je suis thérapeuthe/coach
+          </li>
         </NavLink>
         <NavLink
           to={"/"}
