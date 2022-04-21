@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import FooterFour from "../components/FooterFour";
+import FooterOne from "../components/FooterOne";
+import FooterThree from "../components/FooterThree";
+import FooterTwo from "../components/FooterTwo";
 import Header from "../components/Header";
 import HomeDisplay from "../components/HomeDisplay";
 import Navigation from "../components/Navigation";
@@ -17,6 +21,10 @@ const Home = () => {
       <Header />
       <HomeDisplay />
       <PostDeploy nbr={4} />
+      <FooterOne />
+      <FooterTwo />
+      <FooterThree />
+      <FooterFour />
     </div>
   );
 };
