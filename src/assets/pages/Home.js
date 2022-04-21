@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Header from "../components/Header";
+import HomeDisplay from "../components/HomeDisplay";
 import Navigation from "../components/Navigation";
 import NavigationOnScroll from "../components/NavigationOnScroll";
 
@@ -8,9 +10,11 @@ const Home = () => {
     window.scrollY > 20 ? setChangerNavi(true) : setChangerNavi(false);
   });
   return (
-    <div>
-      {changerNavi ? <NavigationOnScroll /> : <Navigation />}
-      <div></div>
+    <div className="home">
+      {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
+      <Navigation />
+      <Header />
+      <HomeDisplay />
     </div>
   );
 };
