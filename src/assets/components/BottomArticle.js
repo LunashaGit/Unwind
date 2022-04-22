@@ -4,7 +4,7 @@ import { postData } from "../data/post";
 const BottomArticle = () => {
   return (
     <div>
-      <img src={postData[0].image} />
+      <img src={postData[0].image} alt="logo" />
       <p>{postData[0].tags[0]}</p>
       <p>{postData[0].tags[1]}</p>
       <p>{postData[0].tags[2]}</p>

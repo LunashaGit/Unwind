@@ -23,6 +23,7 @@ const HeaderMob = () => {
         return <SignUp width={"mob"} />;
       case 5:
         window.location.href = "/profil";
+        break;
       default:
         setIsOpen(!isOpen);
         setButtonNumber(0);

@@ -8,11 +8,15 @@ const SignUp = () => {
         Vous avez déjà un compte ? <em>Connectez-vous</em>
       </p>
       <button className="button button--hover button--facebook">
-        <img src="./images/facebook.png" style={{ width: "20px" }} />
+        <img src="./images/facebook.png" style={{ width: "20px" }} alt="img" />
         Inscription avec Facebook
       </button>
       <button className="button button--hover button--google">
-        <img src="./images/icons8-google-48.png" style={{ width: "20px" }} />
+        <img
+          src="./images/icons8-google-48.png"
+          style={{ width: "20px" }}
+          alt="img"
+        />
         Inscription avec Google
       </button>
       <p className="signup__ou">Ou</p>

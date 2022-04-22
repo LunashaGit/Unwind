@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Parallax, Background } from "react-parallax";
 import Affirmation from "./Affirmation";
-import Avis from "./Avis";
 import SignUp from "./SignUp";
 import Therapie from "./Therapie";
 import Decision from "./Decision";
@@ -15,6 +14,7 @@ const Header = () => {
     switch (buttonNumber) {
       case 0:
         return <Therapie />;
+
       case 1:
         return <Decision />;
       case 2:
@@ -25,6 +25,7 @@ const Header = () => {
         return <SignUp />;
       case 5:
         window.location.href = "/profil";
+        break;
       default:
         setIsOpen(!isOpen);
         setButtonNumber(0);

@@ -5,12 +5,12 @@ const Image = () => {
   return (
     <div>
       <h2>L'expérience en image</h2>
-      <img src={postData[0].image} />
-      <img src={postData[0].image} />
-      <img src={postData[0].image} />
-      <img src={postData[0].image} />
-      <img src={postData[0].image} />
-      <img src={postData[0].image} />
+      <img src={postData[0].image} alt="img" />
+      <img src={postData[0].image} alt="img" />
+      <img src={postData[0].image} alt="img" />
+      <img src={postData[0].image} alt="img" />
+      <img src={postData[0].image} alt="img" />
+      <img src={postData[0].image} alt="img" />
     </div>
   );
 };

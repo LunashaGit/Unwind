@@ -1,5 +1,4 @@
 import React from "react";
-import { postData } from "../data/post";
 
 const Experience = () => {
   return (

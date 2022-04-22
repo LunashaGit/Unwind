@@ -11,9 +11,9 @@ const App = () => {
       <AnimatePresence>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Article" element={<Article />} />
-          <Route path="/Profil" element={<Profil />} />
-          <Route path="/Categorie" element={<Categorie />} />
+          <Route path="/article" element={<Article />} />
+          <Route path="/profil" element={<Profil />} />
+          <Route path="/categorie" element={<Categorie />} />
         </Routes>
       </AnimatePresence>
     </BrowserRouter>

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import FooterFour from "../components/FooterFour";
 import FooterOne from "../components/FooterOne";
-import FooterTwo from "../components/FooterTwo";
 import Navigation from "../components/Navigation";
 import FooterThree from "../components/FooterThree";
 import PostDeploy from "../components/PostDeploy";
@@ -21,7 +20,6 @@ const Profil = () => {
     const [windowDimensions, setWindowDimensions] = useState(
       getWindowDimensions()
     );
-
     useEffect(() => {
       function handleResize() {
         setWindowDimensions(getWindowDimensions());
@@ -33,6 +31,7 @@ const Profil = () => {
 
     return windowDimensions;
   };
+  console.log(useWindowDimensions);
   return (
     <div className="profil">
       {window.innerWidth <= 1439 ? (
@@ -47,7 +46,7 @@ const Profil = () => {
           <User />
           <PostDeploy nbr={8} hide={true} />
           <FooterOne />
-          <FooterTwo />
+          <FooterGoogle />
           <FooterThree />
           <FooterFour />
         </div>

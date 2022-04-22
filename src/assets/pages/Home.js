@@ -11,7 +11,6 @@ import Carousel from "../components/Carousel";
 import NavigationMob from "../components/mobile/NavigationMob";
 import HeaderMob from "../components/mobile/HeaderMob";
 
-
 const Home = () => {
   function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
@@ -37,6 +36,7 @@ const Home = () => {
 
     return windowDimensions;
   };
+  console.log(useWindowDimensions);
   return (
     <div className="home">
       {window.innerWidth <= 1439 ? (
