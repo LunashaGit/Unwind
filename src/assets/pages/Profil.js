@@ -16,7 +16,7 @@ const Profil = () => {
       {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
       <Navigation hide={true} />
       <User />
-      <PostDeploy nbr={8} />
+      <PostDeploy nbr={8} hide={true} />
       <FooterOne />
       <FooterTwo />
       <FooterThree />

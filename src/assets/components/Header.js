@@ -23,6 +23,8 @@ const Header = () => {
         return <Affirmation />;
       case 4:
         return <SignUp />;
+      case 5:
+        window.location.href = "/profil";
       default:
         setIsOpen(!isOpen);
         setButtonNumber(0);

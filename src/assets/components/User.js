@@ -2,20 +2,19 @@ import React from "react";
 
 const User = () => {
   return (
-    <div>
-      <h1>Découvrez votre thérapie et les thérapeutes faits pour vous !</h1>
-      <img src="#" alt="#"/>
-      <p>INFJ</p>
-      <div>
-          <p>Animaux</p>
-          <p>Nature</p>
-          <p>Sport</p>
-          <p>Coaching</p>
-          <p>Thérapie Brève</p>
-          <p>Yoga</p>  
-          <p>Méditation</p>
+    <div className="user">
+      <h3>Découvrez votre thérapie et les thérapeutes faits pour vous ! ✨</h3>
+      <span className="user__profil"></span>
+      <button className="user__button user__button--select">INFJ</button>
+      <div className="user__box">
+        <button className="user__button">Animaux</button>
+        <button className="user__button">Nature</button>
+        <button className="user__button">Sport</button>
+        <button className="user__button">Coaching</button>
+        <button className="user__button">Thérapie Brève</button>
+        <button className="user__button">Yoga</button>
+        <button className="user__button">Méditation</button>
       </div>
-      <h1>Sur le Résultat de votre test, nous vous recommandons ces expériences :</h1>
     </div>
   );
 };

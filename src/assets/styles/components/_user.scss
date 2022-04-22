@@ -1,0 +1,50 @@
+.user {
+  background-color: $grey5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  h3 {
+    font-size: 1.8rem;
+    margin: 2rem 30rem 1rem 30rem;
+  }
+  &__profil {
+    width: 9rem;
+    height: 9rem;
+    border: 0.4rem $white solid;
+    border-radius: 50rem;
+    background: url(./../../../../public/images/ProfilUser/5.jpg) center/cover;
+  }
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 25rem;
+  }
+  &__button {
+    border: 0;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    background-color: $grey4;
+    transition: 0.2s ease-in-out;
+    margin: 0.2rem;
+    &:hover {
+      transform: scale(0.95);
+      color: $white;
+      font-size: 1rem;
+      font-weight: 300;
+      background-color: $gold;
+    }
+    &--select {
+      transform: scale(0.95);
+      color: $white;
+      font-size: 1rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+      background-color: $gold;
+    }
+  }
+}
