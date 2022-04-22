@@ -1,4 +1,27 @@
 .header {
+  &__article{
+    &--title{
+      display: flex;
+      align-items: center;
+    }
+    &--city{
+      display: flex;
+      align-items: center;
+      h2{
+        margin: 0rem 1rem 0rem 0rem;
+      }
+      h3{
+        margin: 0rem 0rem 0rem 20rem;
+      }
+      img{
+        height: 10rem;
+      }
+      .fa-solid{
+        color: $yellow;
+        margin: 0 0.1rem;
+      }
+    }
+  }
   &__categorie{
     display: flex;
     flex-direction: column;

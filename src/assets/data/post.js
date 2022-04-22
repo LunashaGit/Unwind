@@ -94,7 +94,7 @@ export const postData = [
   },
   {
     id: "6",
-    title: "Soin énergétique aux bols tibétains",
+    title: "Soin énergétique au bols tibétains",
     background: "./images/tibétains.jpg",
     city: "Anvers, Belgique",
     name: "Cody Fisher",
