@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import FooterOne from "../components/FooterOne";
-import Navigation from "../components/Navigation";
-import FooterThree from "../components/FooterThree";
 import PostDeploy from "../components/PostDeploy";
+import Navigation from "../components/Navigation";
+import FooterOne from "../components/FooterOne";
+import FooterThree from "../components/FooterThree";
 import User from "../components/User";
 import FooterGoogle from "../components/FooterGoogle";
 import FooterFour from "../components/FooterFour";
