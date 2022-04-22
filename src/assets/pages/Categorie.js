@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import Carousel from "../components/Carousel";
 import FooterFour from "../components/FooterFour";
 import FooterOne from "../components/FooterOne";
 import FooterThree from "../components/FooterThree";
 import FooterTwo from "../components/FooterTwo";
 import HeaderCategorie from "../components/HeaderCategorie";
 import Navigation from "../components/Navigation";
-
+import CarouselCategorie from "../components/CarouselCategorie";
 import PostDeploy from "../components/PostDeploy";
 const Categorie = () => {
   const [changerNavi, setChangerNavi] = useState(false);
@@ -19,7 +18,7 @@ const Categorie = () => {
         <Navigation />
         <HeaderCategorie />
         <PostDeploy nbr={8} />
-        <Carousel />
+        <CarouselCategorie />
         <FooterOne />
         <FooterTwo />
         <FooterThree />
