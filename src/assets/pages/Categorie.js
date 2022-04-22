@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FooterFour from "../components/FooterFour";
 import FooterOne from "../components/FooterOne";
 import FooterThree from "../components/FooterThree";
-import FooterTwo from "../components/FooterTwo";
+import FooterGoogle from "../components/FooterGoogle";
 import HeaderCategorie from "../components/HeaderCategorie";
 import Navigation from "../components/Navigation";
 import CarouselCategorie from "../components/CarouselCategorie";
@@ -20,7 +20,7 @@ const Categorie = () => {
         <PostDeploy nbr={8} />
         <CarouselCategorie />
         <FooterOne />
-        <FooterTwo />
+        <FooterGoogle />
         <FooterThree />
         <FooterFour />
     </div>

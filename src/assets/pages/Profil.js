@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import FooterFour from "../components/FooterFour";
 import FooterOne from "../components/FooterOne";
-import FooterTwo from "../components/FooterTwo";
 import Navigation from "../components/Navigation";
 import FooterThree from "../components/FooterThree";
 import PostDeploy from "../components/PostDeploy";
 import User from "../components/User";
+import FooterGoogle from "../components/FooterGoogle";
+
 const Profil = () => {
   const [changerNavi, setChangerNavi] = useState(false);
   window.addEventListener("scroll", () => {
@@ -18,7 +19,7 @@ const Profil = () => {
       <User />
       <PostDeploy nbr={8} />
       <FooterOne />
-      <FooterTwo />
+      <FooterGoogle />
       <FooterThree />
       <FooterFour />
     </div>

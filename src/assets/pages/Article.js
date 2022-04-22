@@ -8,7 +8,7 @@ import Video from "../components/Video";
 import Image from "../components/Image";
 import PostDeploy from "../components/PostDeploy";
 import FooterOne from "../components/FooterOne";
-import FooterTwo from "../components/FooterTwo";
+import FooterGoogle from "../components/FooterGoogle";
 import FooterThree from "../components/FooterThree";
 import FooterFour from "../components/FooterFour";
 const Article = () => {
@@ -28,7 +28,7 @@ const Article = () => {
         <Experience />        
         <PostDeploy nbr={4} />
         <FooterOne />
-        <FooterTwo />
+        <FooterGoogle />
         <FooterThree />
         <FooterFour />
     </div>
