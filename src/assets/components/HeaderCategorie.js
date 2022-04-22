@@ -1,13 +1,29 @@
 import React from "react";
-import { postData } from "../data/post";
 
-const HeaderArticle = ({ nbr }) => {
+const HeaderCategorie = () => {
   return (
     <div>
-      <h1>{postData[nbr].title}</h1>
-      <h2>Découvrez nos thérapies liées à cette spécialité</h2>
+      <h1>Sono-Thérapie</h1>
+      <h3>Découvrez nos thérapies liées à cette spécialité</h3>
+      <div>
+          <select>
+              <option>Date | Indifférente</option>
+              <option>Date | Indifférente</option>
+              <option>Date | Indifférente</option>
+          </select>
+          <select>
+              <option>Lieu | Non-défini</option>
+              <option>Lieu | Non-défini</option>
+              <option>Lieu | Non-défini</option>
+          </select>
+          <select>
+              <option>Trier par | Matching</option>
+              <option>Trier par | Matching</option>
+              <option>Trier par | Matching</option>
+          </select>
+      </div>
     </div>
   );
 };
 
-export default HeaderArticle;
+export default HeaderCategorie;
