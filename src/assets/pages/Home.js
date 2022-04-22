@@ -38,13 +38,8 @@ const Home = () => {
 
     return windowDimensions;
   };
-  const [changerNavi, setChangerNavi] = useState(false);
-  window.addEventListener("scroll", () => {
-    window.scrollY > 20 ? setChangerNavi(true) : setChangerNavi(false);
-  });
   return (
     <div className="home">
-      {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
       {window.innerWidth <= 1439 ? (
         <div>
           <NavigationMob hide={true} />

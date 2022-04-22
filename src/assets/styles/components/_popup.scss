@@ -229,6 +229,12 @@
   button {
     margin: 0;
     margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      margin-right: 0.5rem;
+    }
   }
   .button--facebook {
     background-color: #3376dc;
@@ -277,10 +283,10 @@
     margin: 3rem 1rem 2rem 1rem;
     width: calc(100% - 2rem);
     height: calc(100% - 10rem);
-    padding: 2rem 2rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     .button--hover {
       width: 100%;
@@ -341,6 +347,117 @@
       margin-top: 0.5rem;
       width: 4rem;
       height: 4rem;
+    }
+  }
+  .decompress {
+    &__box {
+      width: 100%;
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    &__card {
+      width: 48%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        transform: scale(1.05);
+      }
+      img {
+        width: 100%;
+        box-shadow: 0.1rem 0.1rem 0.1rem $shadow3;
+        border-radius: 0.6rem;
+      }
+      p {
+        margin: 1rem 0;
+      }
+    }
+  }
+  .affirmation {
+    &__box {
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__img {
+      border: 0rem solid black;
+      border-radius: 50rem;
+      margin: 0.2rem;
+      width: 4rem;
+      height: 4rem;
+      background-position: center;
+      background-size: 75%;
+      background-repeat: no-repeat;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+      &--one {
+        background-image: url(./../../../../public/images/heureux.png);
+        &:hover {
+          transform: scale(1.1);
+          background-color: $lightBlue;
+          border: 0rem solid white;
+          outline: 0rem solid $lightBlue;
+          background-image: url(./../../../../public/images/heureuxa.png);
+        }
+      }
+      &--two {
+        background-image: url(./../../../../public/images/sourire.png);
+        &:hover {
+          transform: scale(1.1);
+          background-color: $lightBlue;
+          border: 0rem solid white;
+          outline: 0rem solid $lightBlue;
+          background-image: url(./../../../../public/images/sourire_1.png);
+        }
+      }
+      &--three {
+        background-image: url(./../../../../public/images/meh.png);
+        &:hover {
+          transform: scale(1.1);
+          background-color: $lightBlue;
+          border: 0rem solid white;
+          outline: 0rem solid $lightBlue;
+          background-image: url(./../../../../public/images/meha.png);
+        }
+      }
+      &--four {
+        background-image: url(./../../../../public/images/triste.png);
+        &:hover {
+          transform: scale(1.1);
+          background-color: $lightBlue;
+          border: 0rem solid white;
+          outline: 0rem solid $lightBlue;
+          background-image: url(./../../../../public/images/tristea.png);
+        }
+      }
+      &--five {
+        background-image: url(./../../../../public/images/douleur.png);
+        &:hover {
+          transform: scale(1.1);
+          background-color: $lightBlue;
+          border: 0rem solid white;
+          outline: 0rem solid $lightBlue;
+          background-image: url(./../../../../public/images/douleura.png);
+        }
+      }
+    }
+  }
+  .signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem;
+    p {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      em {
+        color: $gold;
+      }
     }
   }
 }

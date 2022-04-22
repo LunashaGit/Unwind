@@ -3,7 +3,10 @@ import React from "react";
 const User = () => {
   return (
     <div className="user">
-      <h3>Découvrez votre thérapie et les thérapeutes faits pour vous ! ✨</h3>
+      <h3>
+        Découvrez votre profil, la thérapie et les thérapeutes faits pour vous !
+        ✨
+      </h3>
       <span className="user__profil"></span>
       <button className="user__button user__button--select">INFJ</button>
       <div className="user__box">
