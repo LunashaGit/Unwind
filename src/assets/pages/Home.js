@@ -11,6 +11,7 @@ import PostDeploy from "../components/PostDeploy";
 import Avis from "../components/Avis";
 import Carousel from "../components/Carousel";
 import NavigationMob from "../components/mobile/NavigationMob";
+import HeaderMob from "../components/mobile/HeaderMob";
 
 const Home = () => {
   function getWindowDimensions() {
@@ -44,10 +45,10 @@ const Home = () => {
   return (
     <div className="home">
       {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
-      {window.innerWidth <= 1440 ? (
+      {window.innerWidth <= 1439 ? (
         <div>
           <NavigationMob hide={true} />
-          <Header />
+          <HeaderMob />
         </div>
       ) : (
         <div>
