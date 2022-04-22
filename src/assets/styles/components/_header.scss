@@ -105,3 +105,42 @@
     text-shadow: 0.1rem 0.1rem 0.1rem $shadow3;
   }
 }
+
+.headerMob {
+  position: relative;
+  min-height: 100vh;
+  background-image: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0)
+    ),
+    url(./../../../../public/images/AdobeStock_375686737_Preview.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    text-shadow: 0.1rem 0.1rem 0.1rem $shadow3;
+    color: $white;
+  }
+  &__content {
+    text-align: center;
+    font-size: 1.1rem;
+    color: $white;
+    text-shadow: 0.1rem 0.1rem 0.1rem $shadow3;
+    margin-top: 0.8rem;
+  }
+  i {
+    margin-top: 3rem;
+    color: $white;
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem $shadow3;
+  }
+}
