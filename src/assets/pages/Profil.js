@@ -38,16 +38,6 @@ const Profil = () => {
     return windowDimensions;
   };
   return (
-<<<<<<< HEAD
-    <div className="home">
-      <Navigation hide={true} />
-      <User />
-      <PostDeploy nbr={8} hide={true} />
-      <FooterOne />
-      <FooterGoogle />
-      <FooterThree />
-      <FooterFour />
-=======
     <div className="profil">
       {window.innerWidth <= 1439 ? (
         <div className="profilMob">
@@ -66,7 +56,6 @@ const Profil = () => {
           <FooterFour />
         </div>
       )}
->>>>>>> bast
     </div>
   );
 };
