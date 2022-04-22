@@ -5,16 +5,11 @@ const PostDeploy = ({ nbr }) => {
     <div className="postDeploy">
       <h2>Nos thérapies près de chez vous</h2>
       <div className="postDeploy__boxButton">
-        <button className="postDeploy__button postDeploy__button--select">
-          Bruxelles
-        </button>
-        <button className="postDeploy__button">Paris</button>
-        <button className="postDeploy__button">Anvers</button>
-        <button className="postDeploy__button">Lille</button>
-        <button className="postDeploy__button">Mons</button>
-        <button className="postDeploy__button">Charleroi</button>
-        <button className="postDeploy__button">Lyon</button>
-        <button className="postDeploy__button">Bordeaux</button>
+        <button className="postDeploy__button postDeploy__button--select">Médecin alternative</button>
+        <button className="postDeploy__button">Psychologie</button>
+        <button className="postDeploy__button">Thérapie Brève</button>
+        <button className="postDeploy__button">Thérapie avec des animaux</button>
+        <button className="postDeploy__button">Reduction de l'anxiété</button>
       </div>
       <div className="postDeploy__box">
         {postData &&
