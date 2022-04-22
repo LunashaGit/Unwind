@@ -1,16 +1,18 @@
 import React from "react";
 
 const Affirmation = () => {
-
-    return (
-        <div>
-            <h1>Dans laquelle de ces affirmations croyez-vous ?</h1>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-        </div>
-    );
+  return (
+    <div className="affirmation">
+      <h4>Dans laquelle de ces affirmations croyez-vous ?</h4>
+      <div className="affirmation__box">
+        <div className="affirmation__img affirmation__img--one"></div>
+        <div className="affirmation__img affirmation__img--two"></div>
+        <div className="affirmation__img affirmation__img--three"></div>
+        <div className="affirmation__img affirmation__img--four"></div>
+        <div className="affirmation__img affirmation__img--five"></div>
+      </div>
+    </div>
+  );
 };
 
 export default Affirmation;

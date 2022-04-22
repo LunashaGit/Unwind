@@ -1,16 +1,29 @@
 import React from "react";
 
 const Decompress = () => {
-
-    return (
-        <div>
-            <h1>Qu'est ce qui vous permet de décompresser ?</h1>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+  return (
+    <div className="decompress">
+      <h4>Qu'est ce qui vous permet de vous rassurer ou de décompresser ?</h4>
+      <div className="decompress__box">
+        <div className="decompress__card">
+          <img src="./images/Rectangle_710.png" alt="" />
+          <p>La nature</p>
         </div>
-    );
+        <div className="decompress__card">
+          <img src="./images/Rectangle_711.png" alt="" />
+          <p>Les animaux</p>
+        </div>
+        <div className="decompress__card">
+          <img src="./images/Rectangle_712.png" alt="" />
+          <p>Parler</p>
+        </div>
+        <div className="decompress__card">
+          <img src="./images/Rectangle_713.png" alt="" />
+          <p>Le sport</p>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Decompress;
