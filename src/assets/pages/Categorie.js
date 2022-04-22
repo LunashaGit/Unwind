@@ -17,7 +17,7 @@ const Categorie = () => {
       {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
         <Navigation />
         <HeaderCategorie />
-        <PostDeploy nbr={8} />
+        <PostDeploy nbr={8} CatHide={true}/>
         <CarouselCategorie />
         <FooterOne />
         <FooterGoogle />

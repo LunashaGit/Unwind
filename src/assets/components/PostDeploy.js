@@ -7,18 +7,23 @@ const PostDeploy = (props) => {
       style={
         props.hide
           ? { transform: "translateY(0)", paddingTop: "5rem" }
-          : { transform: "translateY(-15rem)", paddingTop: "15rem" }
+          : { transform: "translateY(-17.5rem)", paddingTop: "15rem" }
       }
     >
-      {props.hide ? (
-        <h3 className="postDeploy__h3">
-          Sur le Résultat de votre test, nous vous recommandons ces expériences
-          :
-        </h3>
+      {props.CatHide ? (
+        null
       ) : (
-        <h2>Nos thérapies près de chez vous</h2>
+        props.hide ? (
+          <h3 className="postDeploy__h3">
+            Sur le Résultat de votre test, nous vous recommandons ces expériences
+            :
+          </h3>
+        ) : (
+          <h2>Nos thérapies près de chez vous</h2>
+        )
       )}
-      {props.hide ? null : (
+      
+      {props.hide || props.CatHide ? null : (
         <div className="postDeploy__boxButton">
           <button className="postDeploy__button postDeploy__button--select">
             Bruxelles
