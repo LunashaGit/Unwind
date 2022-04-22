@@ -1,13 +1,17 @@
 .postDeploy {
   background-color: $grey5;
   max-width: 1440px;
-  padding-top: 15rem;
-  transform: translateY(-15rem);
+
   display: flex;
   align-items: center;
   flex-direction: column;
   h2 {
     font-size: 2.5rem;
+  }
+  &__h3 {
+    text-align: center;
+    margin: 0rem 30rem 1rem 30rem;
+    font-size: 1.5rem;
   }
   &__boxButton {
     width: 100%;
@@ -75,8 +79,8 @@
     }
     p {
       position: absolute;
-      bottom: 1rem;
-      right: 0.5rem;
+      top: 1rem;
+      left: 1rem;
       background-color: $lightBlue;
       border-radius: 50rem;
       height: 2.5rem;

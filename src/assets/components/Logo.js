@@ -1,9 +1,17 @@
 import React from "react";
 
-const Logo = () => {
+const Logo = (props) => {
   return (
     <div>
-      <h1 style={{ margin: "0 5rem 0 2rem" }}>Unwind</h1>
+      <img
+        src="./images/Unwind.png"
+        alt="logo"
+        style={
+          props.width
+            ? { margin: "0rem", height: "1rem" }
+            : { margin: "0 5rem 0 2rem", height: "2rem" }
+        }
+      />
     </div>
   );
 };

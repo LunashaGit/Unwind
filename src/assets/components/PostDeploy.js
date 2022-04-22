@@ -1,19 +1,41 @@
 import React from "react";
 import { postData } from "../data/post";
-const PostDeploy = ({ nbr }) => {
+const PostDeploy = (props) => {
   return (
-    <div className="postDeploy">
-      <h2>Nos thérapies près de chez vous</h2>
-      <div className="postDeploy__boxButton">
-        <button className="postDeploy__button postDeploy__button--select">Médecin alternative</button>
-        <button className="postDeploy__button">Psychologie</button>
-        <button className="postDeploy__button">Thérapie Brève</button>
-        <button className="postDeploy__button">Thérapie avec des animaux</button>
-        <button className="postDeploy__button">Reduction de l'anxiété</button>
-      </div>
+    <div
+      className="postDeploy"
+      style={
+        props.hide
+          ? { transform: "translateY(0)", paddingTop: "5rem" }
+          : { transform: "translateY(-15rem)", paddingTop: "15rem" }
+      }
+    >
+      {props.hide ? (
+        <h3 className="postDeploy__h3">
+          Sur le Résultat de votre test, nous vous recommandons ces expériences
+          :
+        </h3>
+      ) : (
+        <h2>Nos thérapies près de chez vous</h2>
+      )}
+      {props.hide ? null : (
+        <div className="postDeploy__boxButton">
+          <button className="postDeploy__button postDeploy__button--select">
+            Bruxelles
+          </button>
+          <button className="postDeploy__button">Paris</button>
+          <button className="postDeploy__button">Anvers</button>
+          <button className="postDeploy__button">Lille</button>
+          <button className="postDeploy__button">Mons</button>
+          <button className="postDeploy__button">Charleroi</button>
+          <button className="postDeploy__button">Lyon</button>
+          <button className="postDeploy__button">Bordeaux</button>
+        </div>
+      )}
+
       <div className="postDeploy__box">
         {postData &&
-          postData.slice(0, nbr).map((post) => (
+          postData.slice(0, props.nbr).map((post) => (
             <div className="postDeploy__card" key={post.id}>
               <div
                 className="postDeploy__img"

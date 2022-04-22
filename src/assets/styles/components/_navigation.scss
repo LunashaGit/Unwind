@@ -49,4 +49,49 @@
   &__link {
     margin-right: 2rem;
   }
+  &__miniBox {
+    display: flex;
+    width: 11rem;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50rem;
+      background: url(./../../../../public/images/Ellipse_87.png) center/cover;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    i {
+      margin-left: 2rem;
+      font-size: 1rem;
+    }
+  }
+}
+.navMob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  &__miniBox {
+    display: flex;
+    width: 11rem;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50rem;
+      background: url(./../../../../public/images/Ellipse_87.png) center/cover;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 800;
+    }
+    i {
+      font-size: 1rem;
+    }
+  }
 }
