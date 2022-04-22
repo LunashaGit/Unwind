@@ -22,8 +22,6 @@ const Header = () => {
       case 3:
         return <Affirmation />;
       case 4:
-        return <Avis />;
-      case 5:
         return <SignUp />;
       default:
         setIsOpen(!isOpen);
@@ -67,11 +65,10 @@ const Header = () => {
                   {buttonNumber === 0 ? "C'est parti !" : ""}
                   {buttonNumber === 1 ||
                   buttonNumber === 2 ||
-                  buttonNumber === 3 ||
-                  buttonNumber === 4
+                  buttonNumber === 3
                     ? "Suivant"
                     : ""}
-                  {buttonNumber === 5 ? "S'inscrire" : ""}
+                  {buttonNumber === 4 ? "S'inscrire" : ""}
                 </button>
               </div>
             </div>
