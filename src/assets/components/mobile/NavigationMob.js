@@ -1,20 +1,18 @@
 import React from "react";
 import Logo from "../Logo";
+import { NavLink } from "react-router-dom";
 
 const NavigationMob = (props) => {
   return (
     <div className="navMob">
-      <Logo width={"mob"} />
-      {props.hide ? (
-        <i className="fa-solid fa-bars"></i>
-      ) : (
-        <div className="navMob__miniBox">
-          <span></span>
+      <NavLink
+        to={"/"}
+        className={(nav) => (nav.isActive ? "nav__active" : "")}
+      >
+        <Logo width={"mob"} />
+      </NavLink>
 
-          <p>Cody Fisher</p>
-          <i className="fa-solid fa-bars"></i>
-        </div>
-      )}
+      <i className="fa-solid fa-bars"></i>
     </div>
   );
 };

@@ -141,3 +141,16 @@
     margin: 3rem auto 8rem auto;
   }
 }
+.profilMob {
+  .postDeploy__box {
+    width: 80%;
+    margin: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .postDeploy__h3 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.3rem;
+  }
+}

@@ -5,7 +5,12 @@ import Logo from "./Logo";
 const Navigation = (props) => {
   return (
     <div className="nav">
-      <Logo />
+      <NavLink
+        to={"/"}
+        className={(nav) => (nav.isActive ? "nav__active" : "")}
+      >
+        <Logo />
+      </NavLink>
       {props.hide ? null : (
         <div className="nav__search">
           <div className="nav__search--box">
