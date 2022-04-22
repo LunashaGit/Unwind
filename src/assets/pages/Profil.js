@@ -14,13 +14,13 @@ const Profil = () => {
   return (
     <div className="home">
       {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
-        <Navigation />
-        <User />
-        <PostDeploy nbr={8} />
-        <FooterOne />
-        <FooterTwo />
-        <FooterThree />
-        <FooterFour />
+      <Navigation hide={true} />
+      <User />
+      <PostDeploy nbr={8} />
+      <FooterOne />
+      <FooterTwo />
+      <FooterThree />
+      <FooterFour />
     </div>
   );
 };

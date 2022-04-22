@@ -2,10 +2,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
-const Navigation = () => {
+const Navigation = (props) => {
   return (
     <div className="nav">
       <Logo />
+      {props.hide ? console.log("test") : console.log("nope")}
       <div className="nav__search">
         <div className="nav__search--box">
           <label htmlFor="what">Type de thérapie</label>
