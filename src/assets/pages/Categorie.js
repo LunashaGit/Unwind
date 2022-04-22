@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import FooterFour from "../components/FooterFour";
 import FooterOne from "../components/FooterOne";
 import FooterThree from "../components/FooterThree";
+import FooterFour from "../components/FooterFour";
 import FooterGoogle from "../components/FooterGoogle";
 import HeaderCategorie from "../components/HeaderCategorie";
 import Navigation from "../components/Navigation";
@@ -14,7 +14,6 @@ const Categorie = () => {
   });
   return (
     <div className="home">
-      {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
         <Navigation />
         <HeaderCategorie />
         <PostDeploy nbr={8} CatHide={true}/>

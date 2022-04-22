@@ -18,7 +18,6 @@ const Article = () => {
   });
   return (
     <div className="home">
-      {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
       <Navigation />
         <HeaderArticle nbr={1} />
         <Reservation />

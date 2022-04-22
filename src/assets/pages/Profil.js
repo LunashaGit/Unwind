@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import FooterFour from "../components/FooterFour";
 import FooterOne from "../components/FooterOne";
 import Navigation from "../components/Navigation";
 import FooterThree from "../components/FooterThree";
 import PostDeploy from "../components/PostDeploy";
 import User from "../components/User";
 import FooterGoogle from "../components/FooterGoogle";
+import FooterFour from "../components/FooterFour";
 
 const Profil = () => {
   const [changerNavi, setChangerNavi] = useState(false);
@@ -14,7 +14,6 @@ const Profil = () => {
   });
   return (
     <div className="home">
-      {/* {changerNavi ? <NavigationOnScroll /> : <Navigation />} */}
       <Navigation hide={true} />
       <User />
       <PostDeploy nbr={8} hide={true} />
